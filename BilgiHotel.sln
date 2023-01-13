@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entiti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{B7E8339F-73AA-400B-A615-2F06A44C93C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelUI", "HotelUI\HotelUI.csproj", "{B41B24C5-9A57-41A7-94CA-36FE298A4404}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinUI", "HotelUI\WinUI.csproj", "{B41B24C5-9A57-41A7-94CA-36FE298A4404}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
