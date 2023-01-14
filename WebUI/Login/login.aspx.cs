@@ -4,11 +4,15 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using DataAccess;
+using Entities.Concrete;
 
 namespace WebUI.Login
 {
     public partial class login : System.Web.UI.Page
     {
+        Users users = new Users();
+        
         protected void Page_Load(object sender, EventArgs e)
         {
 
@@ -16,8 +20,8 @@ namespace WebUI.Login
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            Session.Add("user", textUser.Text);
-            Session.Add("pass", textPassword.Text);
+            Session.Add(users.UserName, textUser.Text);
+            Session.Add(users.UserPassword, textPassword.Text);
             Response.Redirect("~/UserPanel/default.aspx");
         }
     }

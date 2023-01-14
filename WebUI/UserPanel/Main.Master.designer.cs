@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WebUI.NewFolder1
+namespace WebUI.UserPanel
 {
 
 
