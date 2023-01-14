@@ -5,22 +5,23 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace WebUI.NewFolder1
+namespace WebUI.UserPanel
 {
-    public partial class WebForm1 : System.Web.UI.Page
+    public partial class _default : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
             if (IsPostBack) return;
-            if (Session["pass"].ToString()=="1234" && Session["user"].ToString() == "admin")
+
+            if (Session["pass"].ToString() == "1234" && Session["user"].ToString() == "admin")
             {
                 Response.Redirect("~/UserPanel/default.aspx");
             }
             else
             {
-                Response.Redirect("~/UserPanel/index.aspx");
+                Response.Redirect("~/AdminPanel/index.aspx");
+                
             }
-            
         }
     }
 }

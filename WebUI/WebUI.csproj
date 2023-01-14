@@ -105,6 +105,7 @@
     <Content Include="UserPanel\css\owl.carousel.min.css" />
     <Content Include="UserPanel\css\owl.theme.default.min.css" />
     <Content Include="UserPanel\css\style.css" />
+    <Content Include="UserPanel\default.aspx" />
     <Content Include="UserPanel\fonts\flaticon\backup.txt" />
     <Content Include="UserPanel\fonts\flaticon\font\flaticon.css" />
     <Content Include="UserPanel\fonts\flaticon\font\flaticon.html" />
@@ -171,7 +172,6 @@
     <Content Include="UserPanel\restaurant.html" />
     <Content Include="UserPanel\rooms-single.aspx" />
     <Content Include="UserPanel\rooms.aspx" />
-    <Content Include="UserPanel\default.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -196,19 +196,19 @@
     <Compile Include="Login\login.aspx.designer.cs">
       <DependentUpon>login.aspx</DependentUpon>
     </Compile>
-    <Compile Include="UserPanel\Main.Master.cs">
-      <DependentUpon>Main.Master</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="UserPanel\Main.Master.designer.cs">
-      <DependentUpon>Main.Master</DependentUpon>
-    </Compile>
     <Compile Include="UserPanel\default.aspx.cs">
       <DependentUpon>default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="UserPanel\default.aspx.designer.cs">
       <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserPanel\Main.Master.cs">
+      <DependentUpon>Main.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserPanel\Main.Master.designer.cs">
+      <DependentUpon>Main.Master</DependentUpon>
     </Compile>
     <Compile Include="UserPanel\rooms-single.aspx.cs">
       <DependentUpon>rooms-single.aspx</DependentUpon>

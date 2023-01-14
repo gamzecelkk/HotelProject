@@ -1,8 +1,9 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/UserPanel/Main.Master" AutoEventWireup="true" CodeBehind="default.aspx.cs" Inherits="WebUI.NewFolder1.WebForm1" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/UserPanel/Main.Master" AutoEventWireup="true" CodeBehind="default.aspx.cs" Inherits="WebUI.UserPanel._default" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
+    
       <section class="home-slider owl-carousel">
       <div class="slider-item" style="background-image:url(images/bg_1.jpg);">
       	<div class="overlay"></div>
