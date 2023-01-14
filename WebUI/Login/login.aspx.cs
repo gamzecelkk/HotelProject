@@ -13,5 +13,12 @@ namespace WebUI.Login
         {
 
         }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            Session.Add("user", textUser.Text);
+            Session.Add("pass", textPassword.Text);
+            Response.Redirect("~/UserPanel/default.aspx");
+        }
     }
 }

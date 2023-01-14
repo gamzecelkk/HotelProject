@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/NewFolder1/Main.Master" AutoEventWireup="true" CodeBehind="rooms-single.aspx.cs" Inherits="WebUI.NewFolder1.rooms_single" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/UserPanel/Main.Master" AutoEventWireup="true" CodeBehind="rooms-single.aspx.cs" Inherits="WebUI.NewFolder1.rooms_single" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">

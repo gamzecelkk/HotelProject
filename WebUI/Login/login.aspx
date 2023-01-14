@@ -43,15 +43,22 @@
 							<form action="#" class="signin-form">
 			      		<div class="form-group mb-3">
 			      			<label class="label" for="name">Username</label>
-			      			<input type="text" class="form-control" placeholder="Username" required>
+							<asp:TextBox ID="textUser" class="form-control" placeholder="Username" required runat="server" ></asp:TextBox>
+                            <%--<input type="text" class="form-control" placeholder="Username" required>--%>
 			      		</div>
 		            <div class="form-group mb-3">
 		            	<label class="label" for="password">Password</label>
-		              <input type="password" class="form-control" placeholder="Password" required>
+						<asp:TextBox ID="textPassword" class="form-control" placeholder="Password" required runat="server"></asp:TextBox>
+                        <%--<input type="password" class="form-control" placeholder="Password" required>--%>
 		            </div>
 		            <div class="form-group">
-		            	<button type="submit" class="form-control btn btn-primary rounded submit px-3">Sign In</button>
+						<asp:Button ID="Button1" class="form-control btn btn-primary rounded submit px-3" runat="server" Text="Button" OnClick="Button1_Click"  />
+		            	
+						
+						
+						<%--<button type="submit" class="form-control btn btn-primary rounded submit px-3">Sign In</button>--%>
 		            </div>
+								
 		            <div class="form-group d-md-flex">
 		            	<div class="w-50 text-left">
 			            	<label class="checkbox-wrap checkbox-primary mb-0">Remember Me
@@ -64,12 +71,15 @@
 									</div>
 		            </div>
 		          </form>
+
 		          <p class="text-center">Not a member? <a data-toggle="tab" href="#signup">Sign Up</a></p>
 		        </div>
 		      </div>
 				</div>
 			</div>
 		</div>
+
+
 	</section>
 
 	<script src="js/jquery.min.js"></script>
