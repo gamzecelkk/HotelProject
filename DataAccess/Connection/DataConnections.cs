@@ -10,7 +10,7 @@ namespace DataAccess
     {
         public static string Get_MsSQLConnectionString
         { 
-            get { return "Server=.;Database=DBHotel1;Trusted_Connection=True;"; }
+            get { return "Server=.;Database=DBHotel;Trusted_Connection=True;"; }
         }
         //static new kullanmadan çağırmak demek,adıyla çağırabiliriz artık
         public static string Get_OracleConnectionString

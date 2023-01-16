@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="AdminPanel\index.aspx" />
+    <Content Include="Login\Control.aspx" />
     <Content Include="Login\css\bootstrap.min.css" />
     <Content Include="Login\css\bootstrap\mixins\_border-radius.css" />
     <Content Include="Login\css\bootstrap\mixins\_screen-reader.css" />
@@ -188,6 +189,13 @@
     </Compile>
     <Compile Include="AdminPanel\Main.Master.designer.cs">
       <DependentUpon>Main.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Login\Control.aspx.cs">
+      <DependentUpon>Control.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login\Control.aspx.designer.cs">
+      <DependentUpon>Control.aspx</DependentUpon>
     </Compile>
     <Compile Include="Login\login.aspx.cs">
       <DependentUpon>login.aspx</DependentUpon>
@@ -337,7 +345,6 @@
     <Content Include="UserPanel\scss\bootstrap\_utilities.scss" />
     <Content Include="UserPanel\scss\bootstrap\_variables.scss" />
     <Content Include="UserPanel\scss\style.scss" />
-    <Content Include="UserPanel\Main.Master" />
     <Content Include="Login\css\.DS_Store" />
     <Content Include="Login\css\bootstrap\.DS_Store" />
     <Content Include="Login\css\bootstrap\mixins\.DS_Store" />
@@ -438,6 +445,7 @@
     <Content Include="Login\scss\style.scss" />
     <Content Include="AdminPanel\Main.Master" />
     <None Include="packages.config" />
+    <Content Include="UserPanel\Main.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

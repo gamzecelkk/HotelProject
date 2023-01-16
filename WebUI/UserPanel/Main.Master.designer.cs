@@ -11,7 +11,7 @@ namespace WebUI.UserPanel
 {
 
 
-    public partial class Site1
+    public partial class Main
     {
 
         /// <summary>

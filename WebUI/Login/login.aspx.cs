@@ -13,6 +13,7 @@ namespace WebUI.Login
     {
         Users users = new Users();
         
+        
         protected void Page_Load(object sender, EventArgs e)
         {
 
@@ -20,9 +21,9 @@ namespace WebUI.Login
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            Session.Add(users.UserName, textUser.Text);
-            Session.Add(users.UserPassword, textPassword.Text);
-            Response.Redirect("~/UserPanel/default.aspx");
+            Session.Add("userEmail", textUser.Text);
+            Session.Add("userPass", textPassword.Text);
+            Response.Redirect("~/userpanel/Default.aspx");
         }
     }
 }
