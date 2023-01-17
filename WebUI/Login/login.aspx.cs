@@ -11,9 +11,6 @@ namespace WebUI.Login
 {
     public partial class login : System.Web.UI.Page
     {
-        Users users = new Users();
-        
-        
         protected void Page_Load(object sender, EventArgs e)
         {
 
@@ -23,7 +20,7 @@ namespace WebUI.Login
         {
             Session.Add("userEmail", textUser.Text);
             Session.Add("userPass", textPassword.Text);
-            Response.Redirect("~/userpanel/Default.aspx");
+            Response.Redirect("Control.aspx");
         }
     }
 }
