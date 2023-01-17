@@ -84,6 +84,7 @@
     <Content Include="Login\js\main.js" />
     <Content Include="Login\js\popper.js" />
     <Content Include="Login\login.aspx" />
+    <Content Include="UserPanel\about.aspx" />
     <Content Include="UserPanel\about.html" />
     <Content Include="UserPanel\blog-single.html" />
     <Content Include="UserPanel\blog.html" />
@@ -203,6 +204,13 @@
     </Compile>
     <Compile Include="Login\login.aspx.designer.cs">
       <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserPanel\about.aspx.cs">
+      <DependentUpon>about.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserPanel\about.aspx.designer.cs">
+      <DependentUpon>about.aspx</DependentUpon>
     </Compile>
     <Compile Include="UserPanel\default.aspx.cs">
       <DependentUpon>default.aspx</DependentUpon>
