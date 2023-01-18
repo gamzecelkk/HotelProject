@@ -59,25 +59,33 @@ namespace HotelUI.UI
         #region Login Process
         private void Login_Click(object sender, EventArgs e)
         {
-            
-            Users users = new Users();
-            users.UserEmail = Email.Text;
-            users.UserPassword = Password.Text;
-            UserDal userDal = new UserDal();
-            int Type = userDal.UserLogin(users);
+            try
+            {
+                Users users = new Users();
+                users.UserEmail = Email.Text;
+                users.UserPassword = Password.Text;
+                UserDal userDal = new UserDal();
+                int Type = userDal.UserLogin(users);
 
-            if (Type > 0)
-            {
-                ControlSettings.Back(this);
+                if (Type > 0)
+                {
+                    ControlSettings.Back(this);
+                }
+                else if (Type == 0)
+                {
+                    Messages.Entry();
+                }
+                else if (Type == -1)  // there is a user who has not authority
+                {
+                    Messages.Authority();
+                }
             }
-            else if (Type == 0)
+            catch (Exception)
             {
-                Messages.Entry();
+                Messages.Error();
             }
-            else if (Type == -1)  // there is a user who has not authority
-            {
-                Messages.Authority();
-            }
+            
+            
             
         }
         #endregion
