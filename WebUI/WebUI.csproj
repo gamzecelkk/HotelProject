@@ -85,7 +85,6 @@
     <Content Include="Login\js\popper.js" />
     <Content Include="Login\login.aspx" />
     <Content Include="UserPanel\about.aspx" />
-    <Content Include="UserPanel\about.html" />
     <Content Include="UserPanel\blog-single.html" />
     <Content Include="UserPanel\blog.html" />
     <Content Include="UserPanel\contact.html" />
