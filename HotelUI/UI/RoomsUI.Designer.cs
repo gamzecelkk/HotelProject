@@ -65,11 +65,35 @@ namespace HotelUI.UI
             this.listView1 = new System.Windows.Forms.ListView();
             this.LabelBack = new System.Windows.Forms.Label();
             this.LabelExit = new System.Windows.Forms.Label();
+            this.buttonAdd = new System.Windows.Forms.Button();
+            this.buttonUpdate = new System.Windows.Forms.Button();
+            this.buttonDelete = new System.Windows.Forms.Button();
+            this.button32 = new System.Windows.Forms.Button();
+            this.button33 = new System.Windows.Forms.Button();
+            this.button34 = new System.Windows.Forms.Button();
+            this.button35 = new System.Windows.Forms.Button();
+            this.button36 = new System.Windows.Forms.Button();
+            this.button38 = new System.Windows.Forms.Button();
+            this.button40 = new System.Windows.Forms.Button();
+            this.button42 = new System.Windows.Forms.Button();
+            this.button44 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.button44);
+            this.groupBox1.Controls.Add(this.button42);
+            this.groupBox1.Controls.Add(this.button40);
+            this.groupBox1.Controls.Add(this.button38);
+            this.groupBox1.Controls.Add(this.button36);
+            this.groupBox1.Controls.Add(this.button35);
+            this.groupBox1.Controls.Add(this.button34);
+            this.groupBox1.Controls.Add(this.button33);
+            this.groupBox1.Controls.Add(this.button32);
+            this.groupBox1.Controls.Add(this.buttonDelete);
+            this.groupBox1.Controls.Add(this.buttonUpdate);
+            this.groupBox1.Controls.Add(this.buttonAdd);
             this.groupBox1.Controls.Add(this.button28);
             this.groupBox1.Controls.Add(this.button29);
             this.groupBox1.Controls.Add(this.button1);
@@ -105,7 +129,7 @@ namespace HotelUI.UI
             this.groupBox1.ForeColor = System.Drawing.Color.Black;
             this.groupBox1.Location = new System.Drawing.Point(12, 44);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(544, 337);
+            this.groupBox1.Size = new System.Drawing.Size(544, 732);
             this.groupBox1.TabIndex = 32;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Rooms";
@@ -118,7 +142,7 @@ namespace HotelUI.UI
             this.button28.ForeColor = System.Drawing.Color.Black;
             this.button28.Location = new System.Drawing.Point(16, 206);
             this.button28.Name = "button28";
-            this.button28.Size = new System.Drawing.Size(150, 91);
+            this.button28.Size = new System.Drawing.Size(202, 96);
             this.button28.TabIndex = 21;
             this.button28.Text = "KING ROOM";
             this.button28.UseVisualStyleBackColor = false;
@@ -527,9 +551,9 @@ namespace HotelUI.UI
             // listView1
             // 
             this.listView1.HideSelection = false;
-            this.listView1.Location = new System.Drawing.Point(12, 388);
+            this.listView1.Location = new System.Drawing.Point(575, 387);
             this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(544, 97);
+            this.listView1.Size = new System.Drawing.Size(553, 97);
             this.listView1.TabIndex = 36;
             this.listView1.UseCompatibleStateImageBehavior = false;
             // 
@@ -560,6 +584,162 @@ namespace HotelUI.UI
             this.LabelExit.MouseClick += new System.Windows.Forms.MouseEventHandler(this.LabelExit_MouseClick);
             this.LabelExit.MouseEnter += new System.EventHandler(this.LabelExit_MouseEnter);
             this.LabelExit.MouseLeave += new System.EventHandler(this.LabelExit_MouseLeave);
+            // 
+            // buttonAdd
+            // 
+            this.buttonAdd.BackColor = System.Drawing.Color.Transparent;
+            this.buttonAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonAdd.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.buttonAdd.ForeColor = System.Drawing.Color.Black;
+            this.buttonAdd.Location = new System.Drawing.Point(132, 670);
+            this.buttonAdd.Name = "buttonAdd";
+            this.buttonAdd.Size = new System.Drawing.Size(86, 45);
+            this.buttonAdd.TabIndex = 31;
+            this.buttonAdd.Text = "ADD";
+            this.buttonAdd.UseVisualStyleBackColor = false;
+            // 
+            // buttonUpdate
+            // 
+            this.buttonUpdate.BackColor = System.Drawing.Color.Transparent;
+            this.buttonUpdate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonUpdate.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.buttonUpdate.ForeColor = System.Drawing.Color.Black;
+            this.buttonUpdate.Location = new System.Drawing.Point(236, 670);
+            this.buttonUpdate.Name = "buttonUpdate";
+            this.buttonUpdate.Size = new System.Drawing.Size(86, 45);
+            this.buttonUpdate.TabIndex = 32;
+            this.buttonUpdate.Text = "UPDATE";
+            this.buttonUpdate.UseVisualStyleBackColor = false;
+            // 
+            // buttonDelete
+            // 
+            this.buttonDelete.BackColor = System.Drawing.Color.Transparent;
+            this.buttonDelete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonDelete.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.buttonDelete.ForeColor = System.Drawing.Color.Black;
+            this.buttonDelete.Location = new System.Drawing.Point(340, 670);
+            this.buttonDelete.Name = "buttonDelete";
+            this.buttonDelete.Size = new System.Drawing.Size(86, 45);
+            this.buttonDelete.TabIndex = 33;
+            this.buttonDelete.Text = "DELETE";
+            this.buttonDelete.UseVisualStyleBackColor = false;
+            // 
+            // button32
+            // 
+            this.button32.BackColor = System.Drawing.Color.Transparent;
+            this.button32.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button32.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button32.ForeColor = System.Drawing.Color.Black;
+            this.button32.Location = new System.Drawing.Point(224, 206);
+            this.button32.Name = "button32";
+            this.button32.Size = new System.Drawing.Size(46, 45);
+            this.button32.TabIndex = 34;
+            this.button32.Text = "401";
+            this.button32.UseVisualStyleBackColor = false;
+            // 
+            // button33
+            // 
+            this.button33.BackColor = System.Drawing.Color.Transparent;
+            this.button33.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button33.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button33.ForeColor = System.Drawing.Color.Black;
+            this.button33.Location = new System.Drawing.Point(328, 257);
+            this.button33.Name = "button33";
+            this.button33.Size = new System.Drawing.Size(46, 45);
+            this.button33.TabIndex = 35;
+            this.button33.Text = "408";
+            this.button33.UseVisualStyleBackColor = false;
+            // 
+            // button34
+            // 
+            this.button34.BackColor = System.Drawing.Color.Transparent;
+            this.button34.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button34.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button34.ForeColor = System.Drawing.Color.Black;
+            this.button34.Location = new System.Drawing.Point(276, 206);
+            this.button34.Name = "button34";
+            this.button34.Size = new System.Drawing.Size(46, 45);
+            this.button34.TabIndex = 36;
+            this.button34.Text = "402";
+            this.button34.UseVisualStyleBackColor = false;
+            // 
+            // button35
+            // 
+            this.button35.BackColor = System.Drawing.Color.Transparent;
+            this.button35.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button35.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button35.ForeColor = System.Drawing.Color.Black;
+            this.button35.Location = new System.Drawing.Point(380, 257);
+            this.button35.Name = "button35";
+            this.button35.Size = new System.Drawing.Size(46, 45);
+            this.button35.TabIndex = 37;
+            this.button35.Text = "409";
+            this.button35.UseVisualStyleBackColor = false;
+            // 
+            // button36
+            // 
+            this.button36.BackColor = System.Drawing.Color.Transparent;
+            this.button36.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button36.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button36.ForeColor = System.Drawing.Color.Black;
+            this.button36.Location = new System.Drawing.Point(328, 206);
+            this.button36.Name = "button36";
+            this.button36.Size = new System.Drawing.Size(46, 45);
+            this.button36.TabIndex = 38;
+            this.button36.Text = "403";
+            this.button36.UseVisualStyleBackColor = false;
+            // 
+            // button38
+            // 
+            this.button38.BackColor = System.Drawing.Color.Transparent;
+            this.button38.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button38.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button38.ForeColor = System.Drawing.Color.Black;
+            this.button38.Location = new System.Drawing.Point(380, 206);
+            this.button38.Name = "button38";
+            this.button38.Size = new System.Drawing.Size(46, 45);
+            this.button38.TabIndex = 40;
+            this.button38.Text = "404";
+            this.button38.UseVisualStyleBackColor = false;
+            // 
+            // button40
+            // 
+            this.button40.BackColor = System.Drawing.Color.Transparent;
+            this.button40.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button40.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button40.ForeColor = System.Drawing.Color.Black;
+            this.button40.Location = new System.Drawing.Point(432, 206);
+            this.button40.Name = "button40";
+            this.button40.Size = new System.Drawing.Size(46, 45);
+            this.button40.TabIndex = 42;
+            this.button40.Text = "405";
+            this.button40.UseVisualStyleBackColor = false;
+            // 
+            // button42
+            // 
+            this.button42.BackColor = System.Drawing.Color.Transparent;
+            this.button42.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button42.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button42.ForeColor = System.Drawing.Color.Black;
+            this.button42.Location = new System.Drawing.Point(224, 257);
+            this.button42.Name = "button42";
+            this.button42.Size = new System.Drawing.Size(46, 45);
+            this.button42.TabIndex = 44;
+            this.button42.Text = "406";
+            this.button42.UseVisualStyleBackColor = false;
+            // 
+            // button44
+            // 
+            this.button44.BackColor = System.Drawing.Color.Transparent;
+            this.button44.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button44.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button44.ForeColor = System.Drawing.Color.Black;
+            this.button44.Location = new System.Drawing.Point(276, 257);
+            this.button44.Name = "button44";
+            this.button44.Size = new System.Drawing.Size(46, 45);
+            this.button44.TabIndex = 46;
+            this.button44.Text = "407";
+            this.button44.UseVisualStyleBackColor = false;
             // 
             // RoomsUI
             // 
@@ -622,5 +802,17 @@ namespace HotelUI.UI
         private System.Windows.Forms.ListView listView1;
         private System.Windows.Forms.Label LabelBack;
         private System.Windows.Forms.Label LabelExit;
+        private System.Windows.Forms.Button buttonAdd;
+        private System.Windows.Forms.Button button44;
+        private System.Windows.Forms.Button button42;
+        private System.Windows.Forms.Button button40;
+        private System.Windows.Forms.Button button38;
+        private System.Windows.Forms.Button button36;
+        private System.Windows.Forms.Button button35;
+        private System.Windows.Forms.Button button34;
+        private System.Windows.Forms.Button button33;
+        private System.Windows.Forms.Button button32;
+        private System.Windows.Forms.Button buttonDelete;
+        private System.Windows.Forms.Button buttonUpdate;
     }
 }
